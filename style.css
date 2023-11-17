@@ -1,0 +1,187 @@
+li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(13, 36, 136, 1);
+}
+
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgba(13, 36, 136, 1);
+    background-image: url("./search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 25px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+#logo{
+    text-decoration: none;
+    color: white;
+    
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+
+.account:hover{
+    background-color: black;
+    border-radius: 8px;
+}
+
+#log:hover{
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+.social-links:hover{
+    color: red;
+}
+
+@media (min-width : 884px) and (max-width : 965px) {
+    a,.logo,.social-links{
+        /* font-size: 15px; */
+
+    }
+
+    .logo,.account,#log, li{
+        padding: 10px;
+    }
+}
+
+@media (min-width : 725px) and (max-width : 884px) {
+    .logo,.account,#log, li, a,{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .social-links{
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    input{
+        width: 200px;
+    }
+
+    #logo{
+        font-size: 20px;
+        padding: 10px;
+        width: ;
+    }
+}
+
+@media (min-width : 600px) and (max-width : 724px) {
+    .logo, .account, #log, li, a,{
+        font-size: 10px;
+        padding : 3px;
+    }
+
+    #logo{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .social-links{
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    input{
+        width: 150px;
+    }
+}
+
+/* #navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; */
+    /* width: 1000px; */
+    /* align-items: center;
+    background-color: blueviolet;
+    padding: 20px;
+    
+}
+
+.niv1{
+    display: flex;
+    justify-content: ;
+}
+
+.link{
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+#logo{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+#input{
+    width: 380px;
+    height: 30px;
+    background-image: url("./search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+#link1:hover{
+    border: 2px solid black;
+}
+
+#link2:hover{
+    background-color: black;
+    color: white;
+} */
